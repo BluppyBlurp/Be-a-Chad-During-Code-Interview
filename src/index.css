@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'JetBrains Mono', monospace;
+  background-color: #1e1f22;
+  color: #bcbec4;
+}
+
+:root {
+  --bg-primary: #1e1f22;
+  --bg-secondary: #2b2d30;
+  --bg-hover: #35373b;
+  --accent: #4eade5;
+  --accent-green: #6aab69;
+  --accent-red: #f75464;
+  --accent-yellow: #e8c46a;
+  --text-primary: #bcbec4;
+  --text-bright: #dfe1e5;
+  --border: #3c3f41;
+}

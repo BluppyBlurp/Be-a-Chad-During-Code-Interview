@@ -1,0 +1,95 @@
+.landing {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tag {
+  color: var(--accent);
+  font-size: 13px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--text-bright);
+  line-height: 1.2;
+}
+
+.chad {
+  color: var(--accent);
+}
+
+.sub {
+  font-size: 16px;
+  color: var(--text-primary);
+  max-width: 500px;
+}
+
+.start-btn {
+  margin-top: 16px;
+  width: fit-content;
+  padding: 12px 28px;
+  background-color: var(--accent);
+  color: #1e1f22;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.start-btn:hover {
+  opacity: 0.85;
+}
+
+/* OFFERS */
+.offers {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.offers h2, .about h2 {
+  color: var(--accent-green);
+  font-size: 14px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.card {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border);
+  padding: 20px;
+  font-size: 14px;
+  color: var(--text-primary);
+}
+
+/* ABOUT */
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.about p {
+  font-size: 14px;
+  color: var(--text-primary);
+  max-width: 560px;
+  line-height: 1.8;
+}

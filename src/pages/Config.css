@@ -1,0 +1,85 @@
+.config {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 60px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.tag {
+  color: var(--accent);
+  font-size: 13px;
+}
+
+.config h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--text-bright);
+}
+
+.chad {
+  color: var(--accent);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.section h2 {
+  color: var(--accent-green);
+  font-size: 13px;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.option-btn {
+  padding: 10px 24px;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.option-btn:hover {
+  border-color: var(--accent);
+  color: var(--text-bright);
+}
+
+.option-btn.active {
+  border-color: var(--accent);
+  background-color: var(--accent);
+  color: #1e1f22;
+  font-weight: 700;
+}
+
+.start-btn {
+  width: fit-content;
+  padding: 12px 28px;
+  background-color: var(--accent);
+  color: #1e1f22;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.start-btn:hover {
+  opacity: 0.85;
+}
+
+.start-btn.disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
